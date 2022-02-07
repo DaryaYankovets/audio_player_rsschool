@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Audio player</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="audio-player">
+            <div class="bg-audio"></div> 
+
+            <div class="progress-bar-block">
+                <div class="progress-bar"></div>
+            </div>
+
+            <div class="main-block">
+                <div class="btn-audio">
+                    <button class="previous-audio"></button>
+                    <button class="play-audio"></button>
+                    <button class="next-audio"></button>
+                </div>
+                <div class="volume-block">
+                    <button class="volume-btn"></button>
+                    <div class="volume-bar">
+                        <div class="volume-bar-value"></div>
+                    </div>
+                </div>
+                <div class="duration-audio">
+                    <div class="current">0:00</div>
+                    <div class="current">/</div>
+                    <div class="length">0:00</div>
+                </div>
+            </div>
+            <div class="list-tracks"></div>
+        </div>
+    </div>
+    <footer class="block-footer">
+        <ul>
+            <li>
+              <a href="https://github.com/DaryaYankovets" target="_blank">
+                  <img src="./assets/svg/github.svg" width="80" height="30" alt="GitHub">
+              </a>
+            </li>
+            <li>
+                <a href="https://rs.school" target="_blank">
+                    <img src="./assets/svg/rs_school_js.svg" width="80" height="30"  alt="RSSchool">
+                </a>
+            </li>
+            <li>
+                2022 by Yankovets Darya
+            </li>
+          </ul>
+    </footer>
+         
+</body>
+<script src='./index.js'></script>
+</html>
